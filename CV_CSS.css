@@ -182,6 +182,9 @@ button:active:after {
     float: left;
     border-radius: 10px;
 }
+footer {
+    text-align: center;
+}
 @media screen and (max-width: 768px) {
     .column {
       width: 90%;
