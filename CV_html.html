@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel=stylesheet type="text/css" href="CV_CSS.css">
+    <link rel=stylesheet type="text/css" href="cv.css">
     <title>Patrik Kovács CV</title>
     <script src="https://kit.fontawesome.com/347c7bd32e.js" crossorigin="anonymous"></script>
     <script src="js.js"></script>
@@ -17,7 +17,7 @@
             <p id="informations">Kovács Patrik<br>Budapest<br>Tel.: +36-30/920-6537</p>
             <div class="icons">
                 <a href="https://www.facebook.com/patrik.kovacs.2020" target="_blank"><i class="fa-brands fa-facebook fa-beat-fade fa-xl" style="color: #0860f7;"></i></a>
-                <a href = "mailto: kovacs.patrik20@gmail.com"><i class="fa-regular fa-envelope fa-beat-fade fa-xl" style="color: #ff0000; padding-left: 0.5em;"></i></a>
+                <a href ="mailto:kovacs.patrik20@gmail.com"><i class="fa-regular fa-envelope fa-beat-fade fa-xl" style="color: #ff0000; padding-left: 0.5em;"></i></a>
                 <a href="https://www.linkedin.com/in/patrik-kovacs-a90035200/" target="_blank"><i class="fa-brands fa-linkedin fa-beat-fade fa-xl" style="color: #0049c7; padding-left: 0.5em;"></i></a>
                 <a href="viber://chat?number=06309206537"><i class="fa-brands fa-viber fa-beat-fade fa-xl" style="color: #444dca; padding-left: 0.5em;"></i></a>
                 <a href="https://github.com/Patrik2020"><i class="fa-brands fa-github fa-beat-fade fa-xl" style="color:white; padding-left: 0.5em"></i></a>
@@ -25,30 +25,30 @@
         </div>
     </div>
     <div class="row">
-        <div class="column careerGoal">
-            <h3>Karrier cél</h3>
-            <p>A célom, hogy kezdetben junior front-end fejlesztőként dolgozhassak és tanulhassak. 
-                <br> Majd a későbbiekben a tudásom bővítésével a lehető legjobb és legtapasztaltabb webfejlesztő lehessek.
-                <br> Természetesen fejlesztői karrieremet hosszú távra tervezem! :)
-            </p>
+        <div class="column currentPosition">
+            <h3>Jelenlegi munkakör</h3>
+            <h4 class="sub-head" style="text-align: center; font-style: italic; line-height: 1.5em;">2015 - Villlamos járművezető</h4>
+            <p>2015 szeptemberétől dolgozom villamosvezetőként a BKV-nál. 
+                <br>Ezen kívül pedig az utasok udvarias tájékoztatása, kiszolgálása, illetve egyéb adminisztárciós feladatok ellátása is a napi teendőim közé tartozik.</p>
         </div>
         <div class="column school">
             <h3>Iskola és végzettség</h3>
-            <h4 class="sub-head">2021 - 2023  Érettségi</h4>
+            <h4 class="sub-head" style="font-style: italic; line-height: 1.5em;">2021 - 2023  Érettségi</h4>
             <p>Pestszentlőrinc-Pestszentimrei Felnőttek Általános Iskolája és Gimnáziuma</p>
-            <h4 class="sub-head">1999 - 2007 Általános iskolai bizonyítvány</h4>
+            <p><br></p>
+            <h4 class="sub-head" style="font-style: italic; line-height: 1.5em;">1999 - 2007 Általános iskolai bizonyítvány</h4>
             <p>Sátai Általános Iskola</p>
         </div>
-        <div class="column currentPosition">
-            <h3>Jelenlegi munkakör</h3>
-            <h4 class="sub-head">2015 - Villlamos járművezető</h4>
-            <p>2015 szeptemberétől dolgozom villamosvezetőként a BKV-nál. 
-                Munkamódszer átadóként az új belépők és régi dolgozók vonal ismereti és típusismereti gyakoroltatásával foglalkozom. 
-                <br>Ezen kívül pedig az utasok udvarias tájékoztatása, kiszolgálása, illetve egyéb adminisztárciós feladatok ellátása is a napi teendőim közé tartozik.</p>
+        <div class="column careerGoal">
+            <h3>Karrier cél</h3>
+            <p>A célom, hogy kezdetben junior front-end fejlesztőként dolgozhassak és tanulhassak. 
+                <br> Munka közben szeretném a tudásomat bővíteni, gyakorlati tapasztalatot gyűjteni, hogy a cég értékes tagja lehessek.
+                <br> Természetesen fejlesztői karrieremet hosszú távra tervezem! :)
+            </p>
         </div>
         <div class="column skills">
             <h3>Készségek</h3>
-            <ul class="list"></li>
+            <ul class="list">
                 <li>HTML</li>
                 <li>CSS</li>
                 <li>Java Script</li>
@@ -84,9 +84,12 @@
         </div>
     </div>
     <div class="wageDemand">
-        <h3>Bérigény</h3>
+        <h3 id="wageDemandH3">Bérigény</h3>
         <button onclick="document.getElementById('result').innerHTML=result">Érdekel</button>
         <p id="result"></p>
     </div>
+    <footer>
+            <p>Minden jog fenntartva!</p>
+    </footer>
 </body>
 </html>
