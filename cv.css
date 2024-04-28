@@ -206,7 +206,7 @@ img {
     color:rgb(255, 255, 255);
     word-spacing: 1px;
     width: 45%;
-    display: inline-block;
+    display: inline-table;
 }
 h3 {
     color: yellow;
@@ -314,6 +314,9 @@ footer {
         margin: 1.5em 0 1.5em 0;
         text-align: center;
     }
+    .row {
+        display: inline-block;
+    }
     .careerGoal, .school, .currentPosition, .skills, .character, .hobby {
         font-family: calibri, arial, Times New Roman;
         padding: 1%;
@@ -323,7 +326,7 @@ footer {
         color:rgb(255, 255, 255);
         word-spacing: 1px;
         width: 31%;
-        display: inline-block;
+        display: inline-table;
     }
     h3 {
         color: yellow;
