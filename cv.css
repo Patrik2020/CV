@@ -46,7 +46,7 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-/* My formating */
+/* Page formating */
 * {
     box-sizing: border-box;
 }
@@ -94,38 +94,6 @@ h3 {
 #wageDemandH3 {
     color: black;
 }
-button {
-    border-radius: 10px;
-    position: relative;
-    background-color: #1a6ecf;
-    border: none;
-    font-size: 1em;
-    color: #FFFFFF;
-    padding: 8px;
-    text-align: center;
-    transition-duration: 0.4s;
-    text-decoration: none;
-    overflow: hidden;
-    cursor: pointer;
-}
-button:after {
-    content: "";
-    background: #f1f1f1;
-    display: block;
-    position: absolute;
-    padding-top: 300%;
-    padding-left: 350%;
-    margin-left: -20px !important;
-    margin-top: -120%;
-    opacity: 0;
-    transition: all 1.2s
-}
-button:active:after {
-    padding: 0;
-    margin: 0;
-    opacity: 1;
-    transition: 0s
-}
 #result {
     padding-top: 1em;
     padding-bottom: 1em;
@@ -139,6 +107,12 @@ footer {
     color: rgb(255, 255, 255);
     margin-top: 1em;
     margin-bottom: -0.5em;
+}
+#yes, #no {
+    display: inline-block;
+    padding: 0.5em;
+    text-align: center;
+    width: 49%;
 }
 @media screen and (max-width: 666px) {
 img {
@@ -157,13 +131,10 @@ img {
     margin: 5%;
 }
 .wageDemand {
-    width: 60%;
-    margin-left: 20%;
-    margin-right: 20%;
-}
-button {
-    width: 40%;
-    margin: 1% 30% 0% 30%;
+    padding: 1em;
+    width: 82%;
+    margin-left: 9%;
+    margin-right: 9%;
 }
 }
 @media screen and (min-width: 667px) and (max-width: 1023px) {
@@ -202,14 +173,10 @@ img {
     display: inline-table;
 }
 .wageDemand {
-    padding-top: 1em;
-    width: 30%;
-    margin-left: 35%;
-    margin-right: 35%;
-}
-button {
-    width: 35%;
-    margin: 1% 32.5% 0% 32.5%;
+    padding: 1em;
+    width: 42%;
+    margin-left: 29%;
+    margin-right: 29%;
 }
 }
 @media  screen and (min-width: 1024px) {
@@ -247,13 +214,9 @@ button {
         display: inline-table;
     }
     .wageDemand {
-        padding-top: 1em;
+        padding: 1em;
         width: 30%;
         margin-left: 35%;
         margin-right: 35%;
-    }
-    button {
-        width: 35%;
-        margin: 1% 32.5% 0% 32.5%;
     }
 }
