@@ -58,6 +58,8 @@ html {
 }
 .header {
     width: 100%;
+    background-color: rgb(131 131 131 / 10%);
+    background-image: linear-gradient(180deg, #00006d, transparent);
 }
 img {
     border-radius: 50% 25% 50% 25%; 
@@ -90,6 +92,7 @@ h3 {
     margin-top: 20px;
     background: rgb(255, 255, 255, 0.8);
     border-radius: 10px;
+    display: inline-block;
 }
 #wageDemandH3 {
     color: black;
@@ -115,13 +118,27 @@ footer {
     width: 49%;
 }
 @media screen and (max-width: 666px) {
+#buttonOne, #buttonTwo {
+    width: 80%;
+    margin-top: 3%;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 0.6em;
+    border-radius: 20px;
+    display: inline-block;
+    font-size: 0.8rem;
+}
+.documentsButtons {
+    display: block;
+    position: absolute;
+}
 img {
     width: 50%;
     margin: 31% 25% 0 25%;
 }
 #informations {
     font-size: 120%;
-    margin-top: 4em;
+    margin-top: 2em;
 }
 .icons {
     margin: 1.2em 0 1.2em 0;
@@ -138,6 +155,18 @@ img {
 }
 }
 @media screen and (min-width: 667px) and (max-width: 1023px) {
+    .header {
+        margin-bottom: 5%;
+    }
+#buttonOne, #buttonTwo {
+    margin-top: 3%;
+    margin-left: 2%;
+    padding: 0.5em;
+    border-radius: 10px;
+}
+.documentsButtons {
+    width: 15em;
+}
 .image {
     width: 50%;
     display: inline-block;
@@ -151,12 +180,14 @@ img {
 .informations {
     width: 40%;
     float: right;
-    background: rgb(38, 145, 187, 0.6);
-    border-radius: 40% 25% 40% 25%;
-    margin: 5%;
+    background: rgba(255, 255, 255, 1);
+    border-radius: 30px;
+    border: 1px rgb(63, 63, 63) solid;
+    margin-top: 5%;
+    margin-right: 8%;
 }
 #informations {
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
     font-size: 1.5em;
     margin-top: 20%;
 }
@@ -180,6 +211,18 @@ img {
 }
 }
 @media  screen and (min-width: 1024px) {
+    #buttonOne, #buttonTwo {
+        position: relative;
+        margin-top: 3%;
+        margin-left: 2%;
+        padding: 0.5em;
+        border-radius: 10px;
+    }
+    .documentsButtons {
+        display: block;
+        position: absolute;
+        width: 15em;
+    }
     .image {
         width: 30%;
         display: inline-block;
@@ -192,12 +235,13 @@ img {
     .informations {
         width: 29.7%;
         float: right;
-        background: rgb(38, 145, 187, 0.6);
-        border-radius: 50% 50% 50% 50%;
+        background: rgba(255, 255, 255, 1);
+        border-radius: 30px;
+        border: 1px rgb(63, 63, 63) solid;
         margin: 9.5% 10.5% 0 0;
     }
     #informations {
-        color: rgb(255, 255, 255);
+        color: rgb(0, 0, 0);
         font-size: 1.5em;
         margin-top: 5%;
     }
